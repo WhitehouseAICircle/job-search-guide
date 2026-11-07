@@ -42,6 +42,8 @@ Avoid pasting whole private email chains. Describe the question or provide a sho
 
 Practise explaining the answer aloud without reading it. The aim is confidence in your own experience.
 
+For phone, online or in-person interviews, try the [spoken practice and simulated panel prompt](whole-job-search.md). Supply the latest checked role brief, use panel roles rather than unnecessary personal details, and ask one question at a time.
+
 ## 7. My next steps
 
 > Based only on the status information below, help me plan three realistic job-search actions this week. Separate draft applications, submitted applications and interviews. Do not mark anything as submitted unless I confirm it.
@@ -59,6 +61,14 @@ Follow the [Job Sweep guide](job-sweep.md) for complete copyable prompts, an 08:
 If you use LinkedIn, keep an optional chat called **LinkedIn profile refresh** to review your headline, About section, experience and skills using checked evidence. Follow the [LinkedIn profile guide](linkedin-profile.md) for copyable prompts and a checklist.
 
 Check network-sharing controls before editing. Turning sharing off does not hide saved profile changes from visitors, including an employer. Keep your real job titles and skills accurate; review every draft and update LinkedIn yourself.
+
+## 10. Search overview and updates
+
+Keep a dated overview for each role. After a recruiter call or interview, speak or type a short debrief, check the summary and record actual feedback separately from your impressions. Use the [overview and debrief prompts](whole-job-search.md) to connect the stages without relying on perfect recall across chats.
+
+## 11. Offers and decision
+
+Compare the confirmed terms of one or more offers against your priorities. Keep verbal indications, written offers and ongoing interviews distinct. The [offer-comparison prompt](whole-job-search.md) helps identify trade-offs and questions; you decide what to accept and send any reply yourself.
 
 ## If the answer goes wrong
 

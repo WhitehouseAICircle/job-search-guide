@@ -4,6 +4,10 @@
 
 This walkthrough uses a fictional candidate and fictional vacancy. It shows how AI can help organise and express experience. It does not represent a real job opportunity or guarantee an interview.
 
+## Beyond this practice application
+
+A Project can support the [whole job-search journey](whole-job-search.md): recruiter calls, multiple applications, spoken interview and panel practice, post-interview updates and comparing offers. **Keep it current after every important conversation**, then check which information ChatGPT is using for the next task. You can give updates aloud where voice or dictation is available.
+
 ## Optional extras: jump straight in
 
 Already have the basics? Try [Job Sweep: find potential roles regularly](job-sweep.md) or [LinkedIn profile refresh: update your headline, About section and skills](linkedin-profile.md). Both are optional. They also appear as steps 9 and 10 below.
