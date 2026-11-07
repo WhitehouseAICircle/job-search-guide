@@ -1,0 +1,49 @@
+name: Import website files without old history
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/import-website.yml]
+permissions:
+  contents: write
+jobs:
+  import-files:
+    if: github.repository == 'WhitehouseAICircle/job-search-guide' && github.actor == 'WhitehouseAICircle'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Import only public guide files and create a clean root commit
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from urllib.request import Request,urlopen
+          import io,tarfile,subprocess
+          url='https://github.com/WhitehouseAICircle/chatgpt-projects-job-search-demo/archive/5e542f0b82104fb670bac2bd758db5fc91af7355.tar.gz'
+          archive=tarfile.open(fileobj=io.BytesIO(urlopen(Request(url,headers={'User-Agent':'Whitehouse-AI-Circle-migration'}),timeout=60).read()),mode='r:gz')
+          allowed={'README.md','LICENSE','.nojekyll','build_site.py','favicon.svg','index.html','instructions.html','privacy.html','prompts.html','screenshots.html','site.js','styles.css','walkthrough.html','docs','images'}
+          count=0
+          for member in archive.getmembers():
+              if not member.isfile(): continue
+              parts=Path(member.name).parts[1:]
+              if not parts or parts[0] not in allowed or '..' in parts: continue
+              path=Path(*parts)
+              data=archive.extractfile(member).read()
+              if path.suffix not in ('.jpg','.png'):
+                  data=data.decode('utf-8').replace('chatgpt-projects-job-search-demo','job-search-guide').encode('utf-8')
+              path.parent.mkdir(parents=True,exist_ok=True)
+              path.write_bytes(data)
+              count+=1
+          assert count==24, 'Unexpected source file count'
+          subprocess.run(['git','add','--all'],check=True)
+          subprocess.run(['git','-c','user.name=WhitehouseAICircle','-c','user.email=353788129+WhitehouseAICircle@users.noreply.github.com','commit','--amend','--no-edit','--reset-author'],check=True)
+          meta=subprocess.check_output(['git','log','--format=%ae %ce']).lower()
+          assert b'@gmail.com' not in meta
+          assert subprocess.check_output(['git','rev-list','--count','HEAD']).strip()==b'1'
+          import os
+          subprocess.run(['git','push','--force-with-lease=refs/heads/main:'+os.environ['GITHUB_SHA'],'origin','HEAD:main'],check=True)
+          print('Imported 24 files into a single fresh no-reply commit; no old history imported.')
+          
+          PY
