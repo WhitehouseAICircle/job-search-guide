@@ -54,6 +54,12 @@ Keep a chat called **Job Sweep** for finding potential roles using your location
 
 Follow the [Job Sweep guide](job-sweep.md) for complete copyable prompts, an 08:00 daily example, notification checks and what to do when a source cannot be accessed. Applications remain yours to review and send. This optional scheduling example has not been tested as part of the fictional practice run.
 
+## 9. LinkedIn profile refresh
+
+If you use LinkedIn, keep an optional chat called **LinkedIn profile refresh** to review your headline, About section, experience and skills using checked evidence. Follow the [LinkedIn profile guide](linkedin-profile.md) for copyable prompts and a checklist.
+
+Check network-sharing controls before editing. Turning sharing off does not hide saved profile changes from visitors, including an employer. Keep your real job titles and skills accurate; review every draft and update LinkedIn yourself.
+
 ## If the answer goes wrong
 
 Try: “Which part of my supplied information supports that claim?” or “You have added a skill I do not have. Remove it and revise the draft honestly.”

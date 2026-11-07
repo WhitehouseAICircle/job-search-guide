@@ -132,6 +132,12 @@ Once you are comfortable with the exercises, try a separate chat called **Job Sw
 
 The [Job Sweep guide](job-sweep.md) has the filters, full prompts, an 08:00 Europe/London schedule and notification checks. Notifications depend on your account and device settings. It also explains missing salary details, duplicate results and inaccessible adverts. This is an additional educational example; the fictional practice run below did not test scheduled searches or notifications.
 
+## 10. Optional: refresh your LinkedIn profile
+
+If you have a LinkedIn profile, use a **LinkedIn profile refresh** chat to bring it up to date alongside your CV. The [LinkedIn guide](linkedin-profile.md) covers the headline, About section, experience, skills and other useful details, with prompts that use only your checked evidence.
+
+Start with its sharing-controls checklist before saving edits. Switching off network announcements does not make profile changes invisible to an employer. This optional writing exercise was not part of the earlier fictional practice run; no real profile was edited.
+
 ## Before using anything for real
 
 - Check every fact, date, skill and achievement.

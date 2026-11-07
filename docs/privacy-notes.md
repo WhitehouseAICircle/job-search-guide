@@ -45,3 +45,7 @@ Do not upload a sensitive image and rely on someone else to redact it afterwards
 ## If something is shared by mistake
 
 Stop sharing it, remove the public item where possible and contact the relevant platform or administrator for help. Consider who may have received it and whether it needs further action. If a password or credential was exposed, replace it promptly through the relevant service. Do not repost the information while asking for help.
+
+## Updating LinkedIn while employed
+
+Before editing, review the [LinkedIn profile refresh guide](linkedin-profile.md). Switching off network-sharing announcements does not hide your saved profile from visitors, and recruiters-only Open to Work does not guarantee privacy from your current employer. Share only the profile text needed for AI help, leaving out private contact details and confidential workplace information.
