@@ -13,6 +13,7 @@ Whitehouse AI Circle is a local community sharing useful, responsible ways to us
 3. Copy the [Project instructions](docs/project-instructions.md) into your own Project.
 4. Try the [example chats and prompts](docs/example-chats.md).
 5. Optionally set up a [daily Job Sweep](docs/job-sweep.md) to shortlist publicly advertised roles.
+6. If you use LinkedIn, try the [profile refresh guide](docs/linkedin-profile.md), starting with sharing controls.
 
 Allow around 20–30 minutes for a first try, at your own pace. You will need access to ChatGPT and its Projects feature for the Project steps. If you cannot find it, try the prompts in an ordinary chat, supplying the relevant context each time.
 
@@ -31,6 +32,7 @@ Official background: [OpenAI's Projects guide](https://learn.chatgpt.com/docs/pr
 | [Privacy notes](docs/privacy-notes.md) | What to remove before uploading or sharing |
 | [Job-search workflow](docs/job-search-workflow.md) | A worked example from setup to interview practice |
 | [Job Sweep](docs/job-sweep.md) | Optional scheduled search, sample filters and notification checks |
+| [LinkedIn profile refresh](docs/linkedin-profile.md) | Optional writing prompts, profile checklist and sharing controls |
 | [Images](images/README.md) | Five checked screenshots and guidance for future captures |
 
 ## Keep yourself in charge
