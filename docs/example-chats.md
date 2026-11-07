@@ -48,6 +48,12 @@ Practise explaining the answer aloud without reading it. The aim is confidence i
 
 Keep your own simple record: role, employer, deadline, status and next action. Check dates against the original source.
 
+## 8. Job Sweep
+
+Keep a chat called **Job Sweep** for finding potential roles using your location, hours, pay and contract preferences. Test a search first, then use a scheduled task where available.
+
+Follow the [Job Sweep guide](job-sweep.md) for complete copyable prompts, an 08:00 daily example, notification checks and what to do when a source cannot be accessed. Applications remain yours to review and send. This optional scheduling example has not been tested as part of the fictional practice run.
+
 ## If the answer goes wrong
 
 Try: “Which part of my supplied information supports that claim?” or “You have added a skill I do not have. Remove it and revise the draft honestly.”

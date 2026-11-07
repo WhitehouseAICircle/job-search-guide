@@ -126,6 +126,12 @@ Keep a simple record of real applications outside the public demo:
 
 For real roles, distinguish **considering**, **drafting**, **submitted** and **interview arranged**. Only change the status when it has actually happened.
 
+## 9. Optional: add a daily Job Sweep
+
+Once you are comfortable with the exercises, try a separate chat called **Job Sweep** in your job-search Project. Define the roles, area, hours and salary you want, then test a search for accessible online adverts. Where scheduled tasks are available, ask it to repeat each morning and return potential matches for you to check.
+
+The [Job Sweep guide](job-sweep.md) has the filters, full prompts, an 08:00 Europe/London schedule and notification checks. Notifications depend on your account and device settings. It also explains missing salary details, duplicate results and inaccessible adverts. This is an additional educational example; the fictional practice run below did not test scheduled searches or notifications.
+
 ## Before using anything for real
 
 - Check every fact, date, skill and achievement.
