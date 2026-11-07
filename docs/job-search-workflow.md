@@ -4,6 +4,10 @@
 
 This walkthrough uses a fictional candidate and fictional vacancy. It shows how AI can help organise and express experience. It does not represent a real job opportunity or guarantee an interview.
 
+## Optional extras: jump straight in
+
+Already have the basics? Try [Job Sweep: find potential roles regularly](job-sweep.md) or [LinkedIn profile refresh: update your headline, About section and skills](linkedin-profile.md). Both are optional. They also appear as steps 9 and 10 below.
+
 ## 1. Start safely
 
 Read the [privacy notes](privacy-notes.md). For your first attempt, use the fictional text below rather than your own CV.
